@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xp:view xmlns:xp="http://www.ibm.com/xsp/core" xmlns:xe="http://www.ibm.com/xsp/coreex" xmlns:xc="http://www.ibm.com/xsp/custom">
+
+	<xp:this.resources>
+		<xp:linkResource rel="base" href="${facesContext.externalContext.requestContextPath}/" />
+	</xp:this.resources>
+
+	<xe:keepSessionAlive id="keepSessionAlive1" />
+	<xc:navigationRules />
+
+	<div class="navbar navbar-inverse navbar-fixed-top">
+		<div class="navbar-inner">
+			<div class="container">
+				<button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				
+				<xc:link styleClass="brand" value="/" text="${database.title}"/>
+				<div class="nav-collapse collapse">
+					<xp:text loaded="${context.user.name ne 'anonymous'}">
+						<p class="navbar-text pull-right">Logged in as&#160;<xc:link value="/?Logout" styleClass="navbar-link" text="${context.user.commonName}"/></p>
+					</xp:text>
+					<ul class="nav">
+						<li class="${javascript: /^\/Home(\/.*)?/.test(compositeData.navigationPath) ? 'active' : ''}"><xc:link value="/Home.xsp" text="Home"/></li>
+					</ul>
+				</div> <!--/.nav-collapse -->
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<xp:div styleClass="span2" id="LeftColumn">
+				<xp:this.rendered><![CDATA[#{javascript:
+					this.children.length > 0
+				}]]></xp:this.rendered>
+			
+				<xp:callback facetName="LeftColumn" />
+			</xp:div>
+			<xp:div>
+				<xp:this.styleClass><![CDATA[#{javascript:
+					var left = getComponent("LeftColumn").children.length > 0;
+					var right = getComponent("RightColumn").children.length > 0;
+					(left && right) ? "span8" : (left || right) ? "span10" : "span12"
+				}]]></xp:this.styleClass>
+				
+				<xc:messages/>
+			
+				<xp:callback/>
+			</xp:div>
+			<xp:div styleClass="span2" id="RightColumn">
+				<xp:this.rendered><![CDATA[#{javascript:
+					this.children.length > 0
+				}]]></xp:this.rendered>
+			
+				<xp:callback facetName="RightColumn" />
+			</xp:div>
+		</div>
+
+		<hr />
+
+		<footer>
+			<p>© 2013</p>
+		</footer>
+
+	</div>
+
+</xp:view>

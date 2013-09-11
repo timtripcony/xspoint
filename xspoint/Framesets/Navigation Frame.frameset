@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<note class='form' xmlns='http://www.lotus.com/dxl' version='9.0' replicaid='85257BE3001D5BB7'>
+<noteinfo noteid='2ba' unid='2C3D3B4EF6722D9B85257BE3001F4AF7' sequence='1'>
+<created><datetime dst='true'>20130911T014148,07-04</datetime></created>
+<modified><datetime dst='true'>20130911T014148,08-04</datetime></modified>
+<revised><datetime dst='true'>20130911T014148,07-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20130911T014148,08-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20130911T014148,08-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Tim Tripcony/O=Best</name></updatedby>
+<wassignedby><name>CN=Tim Tripcony/O=Best</name></wassignedby>
+<item name='$Comment' sign='true'><text/></item>
+<item name='$FrameSet' sign='true'>
+<rawitemdata type='1'>
+7/8YAAIAAwAAAAAAAAAAAAAAAAAAAAAA8P8+AEUAAAAAAAAAAAABAAEAAAAAAAUAAAAAAAUAAAAA
+AAIAAQAAAAAAAQAAAAAAAAABADEAAwAlAAMAAQDx/zQAEQAAAABAAAECAAEAAQAAAAAAAAAAAAAA
+AQAAAAAAAAABAP///wABAAAKAQAAAAAA9v8zAAAAAAADAAcAEQAAAAAAAAAAAAAAAAAAAAAAAAAA
+AE5hdmlnYXRpb24gSGVhZGVyP/H/PQARAAAAAEAAAAMAAQABAAAAAAAAAAAACQABAAAAAAAAAE5v
+dGVzVmlldwEA////AAEAAAoBAAAAAAA/9v8pAAAAAAADAAcABwAAAAAAAAAAAAAAAAAAAAAAAAAA
+AE5hdlBhZ2U/
+</rawitemdata></item>
+<item name='$Flags'><text>#34CQ</text></item>
+<item name='$DesignerVersion'><text>8.5.3</text></item>
+<item name='$TITLE' sign='true'><text>Navigation Frame</text></item></note>
+

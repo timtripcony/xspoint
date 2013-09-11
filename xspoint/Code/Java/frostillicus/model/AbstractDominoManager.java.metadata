@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><note class="form" replicaid="85257BE3001D5BB7" version="9.0" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="202" sequence="2" unid="75C169E46BD3604085257BE3001E9F04">
+<created><datetime dst="true">20130911T013427,88-04</datetime></created>
+<modified><datetime dst="true">20130911T013428,20-04</datetime></modified>
+<revised><datetime dst="true">20130911T013428,19-04</datetime></revised>
+<lastaccessed><datetime dst="true">20130911T013428,20-04</datetime></lastaccessed>
+<addedtofile><datetime dst="true">20130911T013428,18-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Tim Tripcony/O=Best</name></updatedby>
+<wassignedby><name>CN=Tim Tripcony/O=Best</name></wassignedby>
+<item name="$Flags"><text>34567Cg~[</text></item>
+<item name="$TITLE"><text>frostillicus/model/AbstractDominoManager.java</text></item>
+<item name="$DesignerVersion"><text>8.5.3</text></item>
+
+
+<item name="$FileNames" sign="true"><text>frostillicus/model/AbstractDominoManager.java</text></item></note>
